@@ -16,6 +16,10 @@
   padding: 1.2rem;
 }
 
+.smaller-logo {
+  height: 5.4rem;
+}
+
 .dark-logo {
   filter: invert(100%);
 }
@@ -43,7 +47,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: var(--color-accent2);
+  color: var(--color-base-light);
 }
 
 .main-nav-link.nav-cta:link,
@@ -73,7 +77,7 @@
 .icon-mobile-nav {
   height: 4.8rem;
   width: 4.8rem;
-  color: var(--color-base-dark);
+  color: var(--color-accent1);
 }
 
 .icon-mobile-nav[name="close-outline"] {
@@ -597,7 +601,7 @@
 .cta-img-box {
   background-image: linear-gradient(
       to right bottom,
-      rgba(37, 142, 247, 0.35),
+      rgba(113, 129, 146, 0.35),
       rgba(22, 49, 101, 0.35)
     ),
     url("../img/inviting-worker-hand.webp");
@@ -679,7 +683,7 @@
 
 .footer-logo {
   display: block;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2.4rem;
 }
 
 .social-media-links {
