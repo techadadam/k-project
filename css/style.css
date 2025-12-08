@@ -12,8 +12,8 @@
 }
 
 .logo {
-  height: 4.5rem;
-  /*width: 5rem;*/
+  height: 12rem;
+  padding: 1.2rem;
 }
 
 /* ---- */
@@ -30,8 +30,8 @@
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: rgba(137, 120, 78);
-  border-color: rgba(137, 120, 78);
+  color: var(--color-background);
+  border-color: var(--color-background);
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
@@ -47,14 +47,14 @@
   padding: 1rem 2.4rem;
   border-radius: 9px;
   color: #191919;
-  background-color: rgba(137, 120, 78);
+  background-color: var(--color-background);
   border-style: solid;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #191919;
-  color: rgba(137, 120, 78);
+  color: var(--color-background);
 }
 
 /* Mobilna naw */
@@ -393,7 +393,7 @@
 
 .colorcell {
   margin: 9.6rem;
-  background-color: rgba(137, 120, 78);
+  background-color: var(--color-background);
 }
 
 .colorcell:hover {
@@ -618,7 +618,7 @@
   margin-top: 2.4rem;
   border-radius: 11px;
   border: solid;
-  border-color: rgba(137, 120, 78);
+  border-color: var(--color-background);
 }
 
 .godziny-otwarcia-text {
@@ -631,7 +631,7 @@
 .clock-icon {
   width: 5.6rem;
   height: 5.6rem;
-  color: rgba(137, 120, 78); /* zmienia kolor ikony */
+  color: var(--color-background); /* zmienia kolor ikony */
 }
 
 .godziny-otwarcia-heading-box {
@@ -641,7 +641,7 @@
 
 .godziny-otwarcia-dayvariant-heading {
   font-size: 2.4rem;
-  color: rgba(137, 120, 78);
+  color: var(--color-background);
   margin-bottom: 2.4rem;
 }
 
@@ -673,7 +673,7 @@
 
   background-image: linear-gradient(
     to right bottom,
-    rgba(137, 120, 78),
+    var(--color-background),
     rgba(50, 50, 50)
   );
   overflow: hidden;

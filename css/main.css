@@ -1,15 +1,22 @@
-/* Podstawy */
-@import "base/reset.css";
-@import "base/variables.css";
+@import url("colors.css");
+@import url("general.css");
+@import url("style.css");
+@import url("queries.css");
 
-/*  Układ */
-@import "layout/grid.css";
-@import "layout/header.css";
-@import "layout/footer.css";
+/*
+  /* Podstawy 
+  @import "base/reset.css";
+  @import "base/variables.css";
 
-/* Komponenty */
-@import "components/buttons.css";
-@import "components/forms.css";
+  /*  Układ 
+  @import "layout/grid.css";
+  @import "layout/header.css";
+  @import "layout/footer.css";
 
-/* Narzędzia */
-@import "utils/animations.css";
+  /* Komponenty 
+  @import "components/buttons.css";
+  @import "components/forms.css";
+
+  /* Narzędzia 
+  @import "utils/animations.css";
+*/
