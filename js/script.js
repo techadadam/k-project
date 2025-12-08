@@ -51,6 +51,7 @@ allLinks.forEach((link) => {
 // Sticky navigation
 
 const sectionHeroEl = document.querySelector(".section-hero");
+const logos = document.querySelector(".switching-style-logo");
 
 const obs = new IntersectionObserver(
   function (entries) {
@@ -59,10 +60,12 @@ const obs = new IntersectionObserver(
 
     if (ent.isIntersecting === false) {
       document.body.classList.add("sticky");
+      logos.classList.add("dark-logo");
     }
 
     if (ent.isIntersecting === true) {
       document.body.classList.remove("sticky");
+      logos.classList.remove("dark-logo");
     }
   },
   {

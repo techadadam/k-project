@@ -1,14 +1,17 @@
 /* MOTYW DOMYSLNY */
 :root {
-  --color-base: #0d0d0d; /*CARBON BLACK*/
-  --color-background: #ffffff; /*PURE WHITE*/
+  --color-base-dark: #0d0d0d; /*CARBON BLACK*/
+  --color-base-light: #ffffff; /*PURE WHITE*/
   --color-accent1: #bfc3c7; /*PLATINUM SILVER*/
   --color-accent2: #3e4347; /*STEEL GREY*/
+  --color-accent3: #edeff2;
+
   --color-accent3: #8fb4d9; /*ARCTIC ICE*/
 
   --color-accent3: #214e34;
   --color-accent3: #339989;
-  --color-accent3: #f3ffbd;
+  /*--color-accent3: #f3ffbd; 
+  */
 }
 
 /* MOTYW ALTERNATYWNY po dodaniu stylu style="dark" w body */
