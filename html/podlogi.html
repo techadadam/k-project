@@ -148,44 +148,383 @@
       defer
       src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
     ></script>
+
+    <script 
+    defer 
+    src="../js/script.js"
+    ></script>
+
+    <script 
+    defer 
+    src="../js/script-procesListAnimation.js"
+    ></script>
+    
   </head>
 
   <body>
+<body>
+
+    <div class="rodzaje-podlog-background-img"></div>
+
     <header class="header">
       <a href="../index.html">
-        <img
-          class="logo"
-          alt="KER logo"
-          src="../img/logo_transparent_thmb.webp"
-        />
+        <img class="logo switching-style-logo" alt="KER logo" src="../img/logo_transparent_thmb.webp" />
       </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#rodzaje-podlog">Rodzaje podłóg</a></li>
+          <li><a class="main-nav-link" href="#proces-zakupowy">Proces zakupu</a></li>
+          <li><a class="main-nav-link" href="dla-projektantow.html">Dla projektantów</a></li>
+          <li><a class="main-nav-link nav-cta" href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <main>
       <!-- sekcja "Hero" -->
       <section class="section-hero">
+
         <div class="hero">
+
           <div class="hero-text-box">
             <h1 class="hero-title">Podłogi</h1>
             <p class="hero-paragraph">
-              <strong>Przepraszamy, strona w budowie.</strong>
-              <br />
-              Będzie dostępna dla Ciebie wkrótce.
+              Oferujemy panele laminowane, panele winylowe oraz podłogi drewniane
             </p>
-            <a href="../index.html" class="btn btn--full margin-right-sm"
-              >Wróć do strony głównej</a
-            >
+            <a href="#rodzaje-podlog" class="btn btn--full margin-right-sm">Czytaj więcej &darr;</a>
+            
           </div>
 
           <div class="hero-img hero-image-box">
-            <img
-              src="../img/hero-gallery/1-SklepRuckZuck47.webp"
-              class="activated"
-              alt="Zdjęcie podłogi"
+                <img src="../img/hero-gallery/2-RuckZuck3.webp" class="activated" alt="Zdjęcie podłogi">
+          </div>
+
+        </div>
+
+      </section>
+
+      
+      <!-- sekcja "Rodzaje podlog" -->
+      <section class="section-rodzaje-podlog section-white" id="rodzaje-podlog">
+        
+        <div class="container center-text">
+          <span class="subheading">Rodzaje podłóg</span>
+          <h2 class="heading-secondary">
+            Oferujemy panele laminowane, panele winylowe oraz podłogi drewniane
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols rodzaje-podlog-grid margin-bottom-md">
+            <a class="rodzaje-podlog-button" href="#panele-laminowane">
+              <img
+              src="../img/podlogi/panele-laminowane-po-montazu.webp"
+              class="rodzaje-podlog-img"
+              alt="Zdjecie drzwi"
+              />
+              <p class="rodzaje-podlog-title">PANELE<br>LAMINOWANE</p>
+            </a>
+
+            <a class="rodzaje-podlog-button" href="#panele-winylowe">
+              <img
+              src="../img/podlogi/panele-winylowe-po-montazu.webp"
+              class="rodzaje-podlog-img"
+              alt="Zdjecie drzwi"
             />
+              <p class="rodzaje-podlog-title">PANELE<br>WINYLOWE</p>
+            </a>
+
+            <a class="rodzaje-podlog-button" href="#podlogi-drewniane">
+              <img
+              src="../img/podlogi/podloga-drewniana-po-montazu.webp"
+              class="rodzaje-podlog-img"
+              alt="Doświadczony zespół"
+            />
+              <p class="rodzaje-podlog-title">PODŁOGI<br>DREWNIANE</p>
+            </a>
+          
+        </section>
+
+
+        <!-- sekcja "Panele laminowane" -->
+      <section class="section-rodzaje-podlog section-black grid-text-photo" id="panele-laminowane">
+
+        
+          <div class="grid-text-photo-1st-cell">
+            <!--<span class="subheading">RODZAJE PODŁÓG</span>-->
+            <h2 class="heading-secondary">Panele laminowane</h2>
+            <h3 class="paragraph-heading">
+              Budowa i materiały
+            </h3>
+            <p class="text-o-nas">
+              Panele laminowane składają się z kilku warstw. Na samej górze znajduje się 
+              twarda warstwa wierzchnia, która zabezpiecza podłogę przed zarysowaniami, 
+              ścieraniem, promieniowaniem UV oraz zabrudzeniami. Pod nią umieszczana jest dekoracyjna 
+              warstwa papieru z wysokiej jakości nadrukiem, wiernie odwzorowującym strukturę drewna 
+              lub innych materiałów. Najważniejszym elementem konstrukcji jest rdzeń 
+              z płyty drewnopochodnej o gęstości zależnej od jakości paneli. Najczęściej wykorzystuje się 
+              MDF lub HDF, choć ten drugi, o jeszcze większej gęstości i lepszej stabilności, 
+              jest obecnie stosowany głównie w panelach z wyższej półki.
+            </p>
+            <h3 class="paragraph-heading">
+              Właściwości i użytkowanie
+            </h3>
+            <p class="text-o-nas">
+              Panele laminowane zazwyczaj nie są odporne na wilgoć, lecz producenci coraz częściej 
+              wprowadzają modele odporne na działanie wilogci od 24 do nawet 100 godzin. Poszczególne 
+              elementy podłogi łączone są w znakomitej większości na klik, co zapewnia wysoką estetykę połączeń 
+              jak również powoduje konieczność stosowania dylatacji w każdym progu. Panele laminowane
+              cechują się dużą twardością powierzchni i odpornością na zarysowania. Są łatwe 
+              w czyszczeniu, nie wymagają specjalnej pielęgnacji i dobrze znoszą intensywne 
+              użytkowanie.
+            </p>
+            <h3 class="paragraph-heading">
+              Wygląd i styl
+            </h3>
+            <p class="text-o-nas">
+              Dzięki nowoczesnym nadrukom i strukturze synchronicznej wiernie imitują drewno. 
+              Dostępne są różne grubości, formaty i klasy ścieralności, więc łatwo dopasować 
+              je do swoich potrzeb oraz stylu wnętrza.
+            </p>
+            <h3 class="paragraph-heading">
+              Dla kogo?
+            </h3>
+            <p class="text-o-nas">
+              Dla rodzin z dziećmi, właścicieli zwierząt i wszystkich, którzy szukają 
+              trwałej, efektownej podłogi w rozsądnej cenie.
+            </p>
+            <h3 class="paragraph-heading"></h3>
+            <p class="text-o-nas">
+            Oferujemy bogatą kolekcję paneli laminowanych od renomowanych producentów. Nasi doradcy 
+            pomogą Ci dobrać idealny model, podkład i sposób montażu. 
+            Zapewniamy profesjonalne ekipy montażowe, które zadbają o prawidłowe przygotowanie podłoża 
+            i wykonanie podłogi zgodnie ze standardami. Wybierając panele laminowane u nas, 
+            zyskujesz trwałą, estetyczną i funkcjonalną podłogę, która posłuży Twojej rodzinie przez lata.
+            </p>
+          </div>
+
+
+          <div class="grid-text-photo-2nd-cell">
+            <figure class="photo-o-nas photo-rodzaje-podlog">
+              <img
+                src="../img/podlogi/panele-laminowane-po-montazu.webp"
+                alt="Zdjęcie pieknie polozonej podlogi"
+              />
+            </figure>
+          </div>
+
+        </section>
+
+
+       <!-- sekcja "Panele winylowe" -->
+      <section class="section-rodzaje-podlog section-transparent grid-photo-text" id="panele-winylowe">
+
+          <div class="grid-photo-text-1st-cell">
+            <h2 class="heading-secondary">Panele winylowe</h2>
+              <h3 class="paragraph-heading">
+              Budowa i materiały
+            </h3>
+            <p class="text-o-nas">
+              Panele winylowe składają się z kilku warstw winylu (LVT) lub kompozytu kamienno-polimerowego (SPC). 
+              Wierzchnią część stanowi odporna na ścieranie i wilgoć warstwa poliuretanowa. Panele 
+              winylowe, w zależności od wybranego warianu, pozwalają na montaż zarówno na klik jak i klejenie.
+              W wersji klejonej możliwa jest bezinwazyjna wymiana jednego uszkodzonego elementu.
+            </p>
+            <h3 class="paragraph-heading">
+              Właściwości i użytkowanie
+            </h3>
+            <p class="text-o-nas">
+              Są w 100% wodoodporne, ciche w użytkowaniu i stabilne wymiarowo – nie odkształcają się 
+              pod wpływem temperatury. To doskonały wybór w przypadku ogrzewania podłogowego.
+            </p>
+            <h3 class="paragraph-heading">
+              Wygląd i styl
+            </h3>
+            <p class="text-o-nas">
+              Dzięki technologii druku cyfrowego realistycznie odwzorowują drewno, beton 
+              lub kamień. Występują w wersji deski, jodełki francuskiej lub płytek, 
+              co daje dużą swobodę aranżacyjną.
+            </p>
+            <h3 class="paragraph-heading">
+              Dla kogo?
+            </h3>
+            <p class="text-o-nas">
+              Dla osób szukających podłogi nowoczesnej, wodoodpornej i odpornej na codzienne użytkowanie – 
+              idealna do kuchni, łazienek i mieszkań z małymi dziećmi.
+            </p>
+            <h3 class="paragraph-heading"></h3>
+            <p class="text-o-nas">
+              W naszym salonie znajdziesz szeroki wybór paneli winylowych od sprawdzonych 
+              producentów. Zapewniamy profesjonalne doradztwo, pomoc w wyborze najlepszego 
+              rozwiązania oraz fachowy montaż wraz z przygotowaniem podłoża i pomiarem wilgotności.
+          </div>
+
+
+          <div class="grid-photo-text-2nd-cell">
+            <figure class="photo-o-nas photo-rodzaje-podlog">
+              <img
+                src="../img/podlogi/panele-winylowe-po-montazu.webp"
+                alt="Zdjęcie pieknie polozonej podlogi"
+              />
+            </figure>
+          </div>
+
+      </section>
+
+       <!-- sekcja "Podlogi drewniane" -->
+      <section class="section-rodzaje-podlog section-black grid-text-photo" id="podlogi-drewniane">
+
+        <div class="grid-text-photo-1st-cell">
+          <h2 class="heading-secondary">Podłogi drewniane</h2>
+            <h3 class="paragraph-heading">
+              Budowa i materiały
+            </h3>
+            <p class="text-o-nas">
+              Wykonane z naturalnego drewna – najczęściej dębu, jesionu lub gatunków egzotycznych. 
+              Mogą być lite lub warstwowe, zabezpieczone lakierem, olejem lub woskiem.
+            </p>
+            <h3 class="paragraph-heading">
+              Właściwości i użytkowanie
+            </h3>
+            <p class="text-o-nas">
+              Drewno to materiał żywy – ciepły, przyjemny w dotyku i trwały. Podłogi drewniane można wielokrotnie odnawiać, 
+              co czyni je rozwiązaniem na dziesięciolecia.
+            </p>
+            <h3 class="paragraph-heading">
+              Wygląd i styl
+            </h3>
+            <p class="text-o-nas">
+              Każda deska jest unikalna. Naturalne słoje i odcienie wprowadzają do wnętrza ciepło, 
+              elegancję i autentyczność.
+            </p>
+            <h3 class="paragraph-heading">
+              Dla kogo?
+            </h3>
+            <p class="text-o-nas">
+              Dla osób ceniących naturalne materiały, ponadczasowy wygląd i możliwość wieloletniego użytkowania. 
+              To wybór klasy premium dla osób szukających najwyższej estetyki.
+            </p>
+            <h3 class="paragraph-heading"></h3>
+            <p class="text-o-nas">
+              Oferujemy szeroki wybór podłóg drewnianych w różnych gatunkach i wykończeniach. 
+              Nasi doradcy pomogą dobrać odpowiedni rodzaj drewna do Twojego wnętrza.
+              Zapewniamy również profesjonalny montaż i wykończenie, co gwarantuje trwałość, 
+              naturalne piękno i wieloletni komfort użytkowania. U nas otrzymujesz jakość, 
+              estetykę oraz fachowe wsparcie na każdym etapie.
+            </p>
+        </div>
+
+        <div class="grid-text-photo-2nd-cell">
+          <figure class="photo-o-nas photo-rodzaje-podlog">
+            <img
+              src="../img/podlogi/podloga-drewniana-po-montazu.webp"
+              alt="Zdjęcie pieknie polozonej podlogi"
+            />
+          </figure>
+        </div>
+
+      </section>
+
+
+      <section class="section-proces-zakupowy" id="proces-zakupowy">
+        <div class="container center-text">
+          <span class="subheading">PROCES ZAKUPU PODŁOGI</span>
+          <h2 class="heading-secondary">
+            Proces zakupu podłogi jest u nas przejrzysty i&nbsp;można przedstawić go w&nbsp;kilku punktach
+          </h2>
+        </div>
+        <ul class="non-marker">
+
+          <li class="list-pointoflist non-marker">
+            <div class="container">
+          <div class="list-pointbox">
+            <div class="list-pointbox-number">
+              <h2 class="number-text">01</h2>
+            </div>
+            <div class="list-pointbox-text">
+              Wszystko zaczyna się od wizyty w naszym salonie, gdzie wraz z doradca wybierasz 
+              podłogę, odpowiadajacą twoim potrzebom. Otrzymujesz wstępną wycenę.
+            </div>
           </div>
         </div>
+          </li>
+
+          <li class="list-pointoflist">
+            <div class="container">
+              <div class="list-pointbox background-black">
+                <div class="list-pointbox-number">
+                  <h2 class="number-text text-color-gold">02</h2>
+                </div>
+                <div class="list-pointbox-text text-color-gold">
+                  Jeśli oferta zostanie przez Ciebie zaakceptowana, umawiamy się na pomiar, 
+                  za który pobieramy kwotę 100 zł. Jeśli zdecydujesz się na zakup, pomiar jest 
+                  darmowy, a wpłacona kwota staje się pierwszą częścią całej należności.
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="list-pointoflist">
+            <div class="container">
+              <div class="list-pointbox">
+                <div class="list-pointbox-number">
+                  <h2 class="number-text">03</h2>
+                </div>
+                <div class="list-pointbox-text">
+                  Nasz przedstawiciel przyjeżdza do Ciebie wraz z kilkoma dobranymi w sklepie próbkami podłogi.
+                  To czas na wybranie jednej z nich. Pracownik podczas tej wizyty sprawdza również
+                  podłoże, wykorzystując dwie metody - elektroniczną oraz chemiczną (więcej szczegółów 
+                  <a href="#proces-zakupowy">tutaj</a>
+                  ).
+                  Badane są miejsca newralgiczne, takie jak łączenia podłogi z płytkami, analizowane są
+                   pęknięcia podłoża, mierzona jest również powierzchnia.
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="list-pointoflist">
+            <div class="container">
+              <div class="list-pointbox background-black">
+                <div class="list-pointbox-number">
+                  <h2 class="number-text text-color-gold">04</h2>
+                </div>
+                <div class="list-pointbox-text text-color-gold">
+                  Po pomiarze następuje finalna wycena oraz podanie dokładnej daty montażu podłogi.
+                  To czas na złożenie zamówienia oraz wpłacenia 30-50% zaliczki. Pozostała należność
+                  musi zostać uregulowana najpóźniej dzień przed montażem. Jeżeli z naszego powodu
+                  przekroczymy termin realizacji, to klient otrzymuje minimum 400&nbsp;zł rabatu na zakup.
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="list-pointoflist">
+            <div class="container">
+              <div class="list-pointbox">
+                <div class="list-pointbox-number">
+                  <h2 class="number-text">05</h2>
+                </div>
+                <div class="list-pointbox-text">
+                  Koniec montażu to czas odbioru przez Ciebie prac. Razem z montażystą kontrolujesz
+                  jakość swojej nowej podłogi. Jeżeli wszystko wykonane jest zgodnie z założeniami
+                  to podpisujesz protokół odbioru i po prostu cieszysz się inwestycją. Jeżeli coś wymaga
+                  poprawki, to zgłaszasz ten fakt podczas odbioru lub mailowo na adres 
+                  <a href="mailto:biuro@phterry.pl">biuro@phterry.pl</a>
+                  . Na reakcję na takie zgłoszenie dajemy sobie maksymalnie 72 godziny.
+                </div>
+              </div>
+            </div>
+          </li>
+
+        </ul>
       </section>
+
     </main>
 
     <!-- Footer part -->
@@ -267,5 +606,6 @@
         </p>
       </div>
     </footer>
+    <!--<script src="/stats/hit.js"></script>-->
   </body>
 </html>
