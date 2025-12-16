@@ -48,7 +48,7 @@ allLinks.forEach((link) => {
   });
 });
 
-// Sticky navigation
+// Przyklejony pasek nawigacyjny
 
 const sectionHeroEl = document.querySelector(".section-hero");
 const logos = document.querySelector(".switching-style-logo");
