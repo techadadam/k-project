@@ -253,7 +253,7 @@
   background-color: rgba(10, 10, 10, 0.7);
 }
 
-.rodzaje-podlog-background-img {
+.background-img {
   position: fixed;
   top: 0;
   left: 0;
@@ -264,34 +264,26 @@
   z-index: -1; /* niższy niż treść */
 }
 
+.rodzaje-podlog-background-img {
+  background: url("../img/podlogi/podloga-drewniana-po-montazu.webp")
+    center/cover no-repeat;
+}
+
 .rodzaje-drzwi-background-img {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh; /* tło na wysokość widoku */
   background: url("../img/hero-gallery/3-RuckZuck1.webp") center/cover no-repeat;
-  z-index: -1; /* niższy niż treść */
 }
 
 .rodzaje-wykladzin-background-img {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh; /* tło na wysokość widoku */
   background: url("../img/hero-gallery/7-RuckZuck5.webp") center/cover no-repeat;
-  z-index: -1; /* niższy niż treść */
 }
 
 .rodzaje-akcesoriow-background-img {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh; /* tło na wysokość widoku */
   background: url("../img/hero-gallery/6-RuckZuck2.webp") center/cover no-repeat;
-  z-index: -1; /* niższy niż treść */
+}
+
+.projektanci-background-img {
+  background: url("../img/projektanci/ChatGPT_projektantka.webp") center/cover
+    no-repeat;
 }
 
 /*sekcja proces zakupowy*/

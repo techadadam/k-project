@@ -163,7 +163,7 @@ body {
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.8rem var(--color-accent3);
+  box-shadow: 0 0 0 0.6rem var(--color-accent3);
 }
 
 /* dod kalsy */
